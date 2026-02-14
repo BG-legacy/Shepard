@@ -1,0 +1,82 @@
+.events-page {
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.event-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.event-card h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.event-date {
+  color: #667eea;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.attendance-section {
+  margin: 20px 0;
+}
+
+.attendance-section h3 {
+  color: #333;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 5px;
+}
+
+.attendance-list {
+  max-height: 200px;
+  overflow-y: auto;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.attendance-item {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.attendance-item:last-child {
+  border-bottom: none;
+}
+
+.members-checkin {
+  max-height: 400px;
+  overflow-y: auto;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.member-checkin-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.member-checkin-item:last-child {
+  border-bottom: none;
+}
+
+.checked-in {
+  color: #28a745;
+  font-weight: 600;
+}

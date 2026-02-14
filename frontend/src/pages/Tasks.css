@@ -1,0 +1,112 @@
+.tasks-page {
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.tasks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.task-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.task-header h3 {
+  color: #333;
+  margin: 0;
+  flex: 1;
+}
+
+.task-badges {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-pending {
+  background: #ffc107;
+  color: #fff;
+}
+
+.status-progress {
+  background: #007bff;
+  color: #fff;
+}
+
+.status-completed {
+  background: #28a745;
+  color: #fff;
+}
+
+.priority-high {
+  background: #dc3545;
+  color: #fff;
+}
+
+.priority-medium {
+  background: #fd7e14;
+  color: #fff;
+}
+
+.priority-low {
+  background: #6c757d;
+  color: #fff;
+}
+
+.task-member {
+  color: #667eea;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.task-description {
+  color: #666;
+  margin: 10px 0;
+}
+
+.task-due {
+  color: #f57c00;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.task-assigned {
+  color: #666;
+  margin-top: 5px;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+  background: white;
+}
+
+.form-group select:focus {
+  outline: none;
+  border-color: #667eea;
+}
