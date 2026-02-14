@@ -35,6 +35,45 @@ A comprehensive full-stack Church Care application built with React, Node.js, Ex
 
 ## Setup Instructions
 
+### Option 1: Quick Start with Script (Linux/Mac)
+
+```bash
+# Make the setup script executable and run it
+chmod +x setup.sh
+./setup.sh
+
+# After setup completes, start the backend
+cd backend
+npm start
+
+# In a new terminal, start the frontend
+cd frontend
+npm start
+```
+
+### Option 2: Docker Setup (Recommended)
+
+The easiest way to run the application is with Docker:
+
+```bash
+# Make sure Docker and Docker Compose are installed
+# Then run:
+docker-compose up -d
+
+# The application will be available at:
+# - Frontend: http://localhost:3000
+# - Backend API: http://localhost:5000
+# - PostgreSQL: localhost:5432
+
+# To stop the application:
+docker-compose down
+
+# To view logs:
+docker-compose logs -f
+```
+
+### Option 3: Manual Setup
+
 ### 1. Clone the Repository
 
 ```bash
